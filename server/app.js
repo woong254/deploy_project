@@ -12,7 +12,7 @@ app.get("/hello", (req, res) => {
 });
 
 app.get("/api/board", (req, res) => {
-  res.send({ title: "노드 api 서버 update!!" });
+  res.send({ title: "Build Deploy Test 2025-10-21" });
 });
 
 const publicPath = path.join(__dirname, "public");
